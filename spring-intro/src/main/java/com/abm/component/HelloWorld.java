@@ -7,6 +7,6 @@ public class HelloWorld {
 	}
 	
 	public String sayHello(String name) {
-		return "Hello " + name +". Hope you are fine!";
+		return "Hello " + name +". Hope you are fine";
 	}
 }
