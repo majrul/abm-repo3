@@ -4,7 +4,7 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component("calc") //alternative to <bean id="calc" class="..Calculator" />
-//@Scope("prototype")
+@Scope("prototype")
 public class Calculator {
 
 	public void add(int x, int y) {
